@@ -2,7 +2,16 @@
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="@string/identify" />
-    <item android:title="@string/tips" />
-    <item android:title="@string/map" />
+    <item
+        android:id="@+id/nav_identify"
+        android:icon="@drawable/baseline_search_black_24dp"
+        android:title="@string/identify" />
+    <item
+        android:id="@+id/nav_Tips"
+        android:icon="@drawable/baseline_touch_app_black_24dp"
+        android:title="@string/tips" />
+    <item
+        android:id="@+id/nav_Maps"
+        android:icon="@drawable/baseline_explore_black_18dp"
+        android:title="@string/map" />
 </menu>
