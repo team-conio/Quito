@@ -8,11 +8,11 @@
 
 
     <android.support.design.widget.BottomNavigationView
+        android:background="#f40746"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_height="56dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="664dp"
-        android:layout_marginBottom="0dp" />
+        android:layout_alignParentStart="true"
+        app:menu="@menu/nav_items"/>
 </RelativeLayout>
 
