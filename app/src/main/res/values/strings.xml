@@ -2,4 +2,7 @@
     <string name="app_name">Quito</string>
     <string name="welcome_to_quito">Welcome to Quito</string>
     <string name="textview">TextView</string>
+    <string name="identify">Identify</string>
+    <string name="tips">Tips</string>
+    <string name="map">Map</string>
 </resources>
