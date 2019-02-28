@@ -8,11 +8,20 @@
 
 
     <android.support.design.widget.BottomNavigationView
+        android:id="@+id/main_nav"
         android:background="#f40746"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         app:menu="@menu/nav_items"/>
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_above="@+id/main_nav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
 </RelativeLayout>
 
