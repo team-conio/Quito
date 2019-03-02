@@ -13,4 +13,5 @@
     <string name="more">more</string>
     <string name="this_is_map_fragment">This is map fragment</string>
     <string name="this_is_identify">THis is identify</string>
+    <string name="this_is_tips_fragment">This is tips fragment</string>
 </resources>

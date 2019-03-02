@@ -26,4 +26,5 @@ public class IdentifyFragment extends Fragment {
         return inflater.inflate (R.layout.fragment_identify, container, false);
     }
 
+
 }
