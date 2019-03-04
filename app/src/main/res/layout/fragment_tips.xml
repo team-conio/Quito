@@ -7,5 +7,8 @@
     tools:context=".TipsFragment">
 
 
-
+    <ListView
+        android:id="@+id/Tips_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </FrameLayout>
