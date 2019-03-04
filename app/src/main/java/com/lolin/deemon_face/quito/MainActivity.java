@@ -40,18 +40,18 @@ public class MainActivity extends AppCompatActivity {
                 switch (menuItem.getItemId ()) {
                     case R.id.nav_identify:
                         setFragment (identifyFragment);
+                        break;
 
                     case R.id.nav_Tips:
                         setFragment (tipsFragment);
-
+                        break;
                     case R.id.nav_Maps:
                         setFragment (mapsFragment);
-
-
-                    default:
-                        return false;
+                        break;
 
                 }
+
+                return false;
             }
 
 //            private void setFragment(Fragment fragment) {
