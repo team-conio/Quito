@@ -28,7 +28,7 @@ public class IdentifyFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        imageButton = getView ().findViewById (R.id.identify_takeImage);
+//        imageButton = getView ().findViewById (R.id.identify_takeImage);
 
         // Inflate the layout for this fragment
 
