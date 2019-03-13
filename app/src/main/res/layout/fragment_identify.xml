@@ -7,22 +7,20 @@
 
     <ImageButton
         android:id="@+id/identify_takeImage"
-        android:layout_width="94dp"
-        android:layout_height="71dp"
-        android:src="@drawable/baseline_camera_enhance_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/sample"
         android:contentDescription="@string/camera"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="200dp"
-        android:background="@drawable/sample"/>
+        android:src="@drawable/baseline_camera_enhance_black_24dp" />
 
     <Button
         android:id="@+id/identify_choose_frm_gallery"
-        android:layout_width="wrap_content"
+        android:layout_width="424dp"
         android:layout_height="wrap_content"
-        android:text="@string/choose_from_gallery"
-        android:layout_marginStart="110dp"
         android:layout_marginTop="290dp"
         android:background="#f40746"
-        android:textColor="@android:color/black"/>
+        android:text="@string/choose_from_gallery"
+        android:textColor="@android:color/black" />
 
 </FrameLayout>
