@@ -28,9 +28,16 @@ public class IdentifyFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-//        imageButton = getView ().findViewById (R.id.identify_takeImage);
+        imageButton = getView ().findViewById (R.id.identify_takeImage);
+        imageButton.setOnClickListener (new View.OnClickListener () {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+                startActivity(intent);
+            }
+        });
 
-        // Inflate the layout for this fragment
+        // Inflate the layout for this fragment...
 
 
         return inflater.inflate (R.layout.fragment_identify, container, false);
