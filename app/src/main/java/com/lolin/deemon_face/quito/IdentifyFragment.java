@@ -31,6 +31,7 @@ public class IdentifyFragment extends Fragment {
         View RootView =  inflater.inflate (R.layout.fragment_identify,container,false);
         imageButton = RootView.findViewById (R.id.identify_takeImage);
 
+        //camera open
         imageButton.setOnClickListener (new View.OnClickListener () {
             @Override
             public void onClick(View v) {
@@ -38,6 +39,7 @@ public class IdentifyFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
 
         return RootView;
 
