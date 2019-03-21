@@ -28,7 +28,9 @@ public class IdentifyFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        imageButton = getView ().findViewById (R.id.identify_takeImage);
+        View RootView =  inflater.inflate (R.layout.fragment_identify,container,false);
+        imageButton = RootView.findViewById (R.id.identify_takeImage);
+
         imageButton.setOnClickListener (new View.OnClickListener () {
             @Override
             public void onClick(View v) {
@@ -37,10 +39,12 @@ public class IdentifyFragment extends Fragment {
             }
         });
 
+        return RootView;
+
         // Inflate the layout for this fragment...
 
 
-        return inflater.inflate (R.layout.fragment_identify, container, false);
+//        return inflater.inflate (R.layout.fragment_identify, container, false);
 
     }
 
